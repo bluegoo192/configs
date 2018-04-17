@@ -12,13 +12,6 @@ fi
 
 alias npm-exec='PATH=$(npm bin):$PATH'
 
-export PGUSER="ngnl@sparkshowings-dev-database"
-export PGHOST="sparkshowings-dev-database.postgres.database.azure.com"
-export PGPASSWORD="fortnite>league1"
-export PGDATABASE="postgres"
-export PGPORT=5432
-export FIXIE_SOCKS_HOST="fixie:kvGbFh88mUtTkvU@speedway.usefixie.com:1080"
-
 export PS1="\n\[\033[35m\]λ \[\033[36m\]\$(parse_folder \W)\[\033[32m\]\$(parse_git_branch)\[\033[00m\]: "
 export PS2="    : "
 export ANDROID_HOME=/Users/Arthur/Library/Android/sdk
