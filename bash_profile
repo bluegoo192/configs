@@ -49,5 +49,5 @@ function eacp() {
     git push  
 }
 
-PS1="\033]0;$(basename $PWD) $(parse_git_branch)\007${PS1}"
-trap 'echo -ne "\033]0;$(basename $PWD) | $BASH_COMMAND\007"' DEBUG
+PS1="$(echo -ne '\033]0;$(basename `dirname $PWD`)/`basename $PWD`\007')${PS1}"
+trap 'echo -ne "\033]0;`basename $PWD` | $BASH_COMMAND\007"' DEBUG
