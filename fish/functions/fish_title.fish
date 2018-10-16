@@ -3,6 +3,6 @@ function fish_title
         basename $PWD
         echo " | " $argv
     else
-        basename (dirname $PWD) '/' $PWD
+        basename (dirname $PWD)' / '$PWD
     end
 end
